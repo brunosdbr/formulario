@@ -2,13 +2,13 @@
 
 if(isset($_POST['email']) && !empty($_POST['email'])){
 
-$nome = addcslashes($_POST['name']);
-$email = addcslashes($_POST['email']);
-$mensagem = addcslashes($_POST['message']);
+$nome = addslashes($_POST['name']);
+$email = addslashes($_POST['email']);
+$mensagem = addslashes($_POST['message']);
 
 
 $to = "brunosdbr@hotmail.com";
-$subject = "COntato - Formulario teste";
+$subject = "Contato - Formulario teste";
 $body = "Nome: ".$nome. "\r\n".
         "Email: ".$email."\r\n".
         "Mensagem: ".$mensagem;
