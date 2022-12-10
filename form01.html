@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Teste</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+    <div class="formulario">
+        <h1 id="fonte">FORMULÁRIO DE CONTATO</h1>
+        <form action="" method="post" autocomplete="on" required>
+            <p>
+                <label class="alinhar" for="inome">Nome</label>
+                <input class="centarl" type="text" name="nome" id="inome" required>
+            </p>
+            <p>
+                <label class="alinhar" for="iemail">E-mail</label>
+                <input class="centarl" type="email" name="email" id="iemail" required placeholder="exemple@email.com">
+            </p>
+            <p>
+                <label class="alinhar" for="itel">Telefone</label>
+                <input class="centarl" type="tel" name="tel" id="itel" required placeholder="(XX)XXXXX-XXXX">
+            </p>
+            <p>
+                <input class="botoes" type="submit" value="Enviar">
+                <input class="botoes" type="reset" value="Limpar">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
