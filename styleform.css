@@ -20,19 +20,27 @@
 .botoes{
     border-radius: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 60px;
+    height: 25px;
     padding: 2px;
+    margin: 15px 0px 0px 15px;
     border: none;
 }
 .botoes:hover{
-    background-color: aqua;
+    background-color: rgb(80, 178, 235);
+ 
     border: none;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.219);
 }
-.centarl{
+.central{
     text-align: center;
-    position: relative;
-    left: 10%;
+    width: 400px;
+    height: 22px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.404);
+    border-radius: 5px;
+    border: none;
+    box-shadow: none;
 }
 .alinhar{
     position: relative;
-    left: 10%;
 }

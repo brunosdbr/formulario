@@ -13,15 +13,15 @@
         <form action="" method="post" autocomplete="on" required>
             <p>
                 <label class="alinhar" for="inome">Nome</label>
-                <input class="centarl" type="text" name="nome" id="inome" required>
+                <input class="central" type="text" name="nome" id="inome" required placeholder="Nome Completo">
             </p>
             <p>
                 <label class="alinhar" for="iemail">E-mail</label>
-                <input class="centarl" type="email" name="email" id="iemail" required placeholder="exemple@email.com">
+                <input class="central" type="email" name="email" id="iemail" required placeholder="exemple@email.com">
             </p>
             <p>
                 <label class="alinhar" for="itel">Telefone</label>
-                <input class="centarl" type="tel" name="tel" id="itel" required placeholder="(XX)XXXXX-XXXX">
+                <input class="central" type="number" name="tel" id="itel" required placeholder="(XX)XXXXX-XXXX" pattern="^\d[0-9]{4,5}-[0-9]{4,5}$">
             </p>
             <p>
                 <input class="botoes" type="submit" value="Enviar">
